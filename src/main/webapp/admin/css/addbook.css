@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+header {
+	background-color: navy;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+a {
+	color: green;
+	text-align: right;
+}
+
+.book-section .link {
+	text-align: right;
+}

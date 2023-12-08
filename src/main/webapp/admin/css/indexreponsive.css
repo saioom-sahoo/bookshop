@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+@media screen and (max-width: 850px) {
+	table, thead, tbody, th, td, tr {
+		border: none;
+	}
+	table caption {
+		font-size: 1.3em;
+	}
+	table thead {
+		display: none;
+	}
+	table tbody {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+	table tbody tr {
+		border: 1px solid #ccc;
+		display: flex;
+		flex-direction: column;
+		padding-inline: 0;
+	}
+	table td {
+		border-bottom: 1px solid #ccc;
+		font-size: .8em;
+	}
+	table tbody td:last-child {
+		border-bottom: none;
+	}
+}
+
+@media screen and (min-width: 850px) {
+	.book-section table .description {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
